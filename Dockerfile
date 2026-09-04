@@ -1,4 +1,7 @@
 FROM node:22
+
+ARG DEVCONTAINER_IMAGE_DEFAULT=docker.io/apache/openserverless-devcontainer
+ARG DEVCONTAINER_TAG_DEFAULT=latest
 # Install basic development tools
 RUN \
     echo "deb http://apt.postgresql.org/pub/repos/apt bookworm-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
