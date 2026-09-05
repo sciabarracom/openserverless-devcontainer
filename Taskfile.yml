@@ -161,3 +161,8 @@ tasks:
     - task: tag
     - task update-opsroot
     - task: ci
+
+  license:
+    desc: check license
+    cmds:
+    - license-eye header check

@@ -19,7 +19,7 @@ name: Build Image
 on:
   push:
     tags:
-      - '[0-9]*'
+      - '*.*.*.*'
     branches-ignore: '*'
   workflow_dispatch:
 
